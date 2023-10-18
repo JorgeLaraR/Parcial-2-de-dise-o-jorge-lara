@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgb(0, 54, 172);
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    padding: 20px;
+}
+
+header nav ul li {
+    list-style: none;
+
+}
+
+header a {
+    text-decoration: none;
+}
+
+.ul {
+    display: flex;
+    font-size: 12px;
+    justify-content: center;
+    padding: 5px;
+}
+
+.ul li {
+    margin: 10px;
+}
+
+.ul li a {
+    color: aliceblue;
+}
+
+.carousel-item {
+    max-height: 30rem;
+}
+
+.formulario {
+    display: grid; 
+    grid-template-columns: repeat(3, 1fr); 
+    grid-template-rows: 1fr;
+    gap: 10px;
+    font-family: sans-serif;
+    font-size: 14px;
+    padding: 10px;
+}
+
+.contacto {
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 3%;
+    padding: 10px;
+    background-color: rgb(175, 216, 255);
+}
+
+footer {
+    background-color: rgb(0, 35, 110);
+    color: aliceblue;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 12px;
+    padding: 20px;
+}
+
